@@ -12,6 +12,10 @@
         <module>common</module>
         <module>mock</module>
         <module>logger</module>
+        <module>realtime</module>
+        <module>publisher</module>
+        <module>chart</module>
+        <module>canal</module>
     </modules>
 
 
