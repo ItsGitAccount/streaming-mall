@@ -1,4 +1,4 @@
-package com.atguigu.gtreamingmall.realtime.app
+package com.atguigu.streamingmall.realtime.app
 
 import java.text.SimpleDateFormat
 import java.util
@@ -6,7 +6,8 @@ import java.util.Date
 
 import com.alibaba.fastjson.JSON
 import com.atguigu.streamingmall.common.constant.MallConstant
-import com.atguigu.streamingmall.realtime.util.{MyKafkaUtil, Startuplog}
+import com.atguigu.streamingmall.realtime.bean.Startuplog
+import com.atguigu.streamingmall.realtime.util.MyKafkaUtil
 import org.apache.hadoop.conf.Configuration
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.spark.SparkConf

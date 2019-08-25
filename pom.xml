@@ -16,6 +16,7 @@
         <module>publisher</module>
         <module>chart</module>
         <module>canal</module>
+        <module>alert</module>
     </modules>
 
 

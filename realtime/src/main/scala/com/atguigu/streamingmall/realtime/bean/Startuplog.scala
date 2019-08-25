@@ -1,5 +1,4 @@
-package com.atguigu.streamingmall.realtime.util
-
+package com.atguigu.streamingmall.realtime.bean
 
 case class Startuplog(
                          mid:String,

@@ -42,7 +42,6 @@ public class LogController {
 			kafkaTemplate.send(MallConstant.KAFKA_TOPIC_STARTUP, jsonString);
 		}else {
 			kafkaTemplate.send(MallConstant.KAFKA_TOPIC_EVENT, jsonString);
-
 		}
 
 		return "SUCCESS";
